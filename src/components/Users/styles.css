@@ -1,0 +1,39 @@
+.users {
+  display: flex;
+  justify-content: center;
+}
+
+.users .users-card {
+  width: 70%;
+  min-width: 400px;
+  margin: 40px 0;
+}
+
+.users .card-content {
+  padding-top: 0;
+}
+
+.users .list-item {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.users .list-item .username {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.users .list-item .username .great-chip {
+  padding: 0 12px;
+}
+
+.users .checkbox {
+  padding: 0;
+}
+
+.users .average {
+  padding: 0 16px;
+  display: flex;
+  justify-content: flex-end;
+}
